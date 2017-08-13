@@ -17,7 +17,7 @@ var mu sync.Mutex
 var count int
 var pallete = []color.Color{color.White, color.Black}
 
-func main() {
+func main2() {
 	http.HandleFunc("/", handleFunc)
 	http.HandleFunc("/count", counter)
 	http.HandleFunc("/l", lissFunc)
